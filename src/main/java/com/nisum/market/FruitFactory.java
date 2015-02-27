@@ -16,6 +16,14 @@ public class FruitFactory {
             return new Apple();
         }
 
+        if ("lemon".equals(fruitName)){
+            return new Lemon();
+        }
+
+        if ("watermelon".equals(fruitName)){
+            return new WaterMelon();
+        }
+
         return null;
     }
 }
