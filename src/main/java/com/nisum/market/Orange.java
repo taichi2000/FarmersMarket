@@ -1,6 +1,6 @@
 package com.nisum.market;
 
-public class WaterMelon implements Fruit {
+public class Orange implements Fruit {
 
     public void eat() {
 

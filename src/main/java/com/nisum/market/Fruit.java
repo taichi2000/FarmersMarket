@@ -1,8 +1,6 @@
 package com.nisum.market;
 
-public class Fruit {
+public interface Fruit {
 
-    public void eat() {
-
-    }
+    void eat();
 }

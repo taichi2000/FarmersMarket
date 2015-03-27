@@ -29,7 +29,7 @@ public class FarmerTest {
 
         Fruit lemon = farmer.sellMeA(LEMON);
 
-        verify(fruitFactory, times(1)).giveMeAFruit(LEMON);
+        verify(fruitFactory).giveMeAFruit(LEMON);
 
         assertTrue(lemon instanceof Lemon);
     }
